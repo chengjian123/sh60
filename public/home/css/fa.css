@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局基本颜色和链接颜色*/
+
+a:link,a:visited{color:#0082CB;}
+a:hover,a:active{ color:#339900;}
+.mainL a.lose,.feedCell .from a:link,.feedCell .from a:visited,.jh_oneWblog .jh_oWB_option a{color:#80C1E5}/*弱连接颜色*/
+.mainL a.lose:hover{color:#80C1E5}
+
+/*右侧基本颜色和链接颜色*/
+.mainR{}
+.mainR a:link,.mainR a:visited{}
+.mainR a:hover,a:active{}
+.friendlist2 p.fri_at a{ color:#80C1E5;}/*弱连接颜色*/
+/*个人资料 关注数颜色*/
+.person_atten .num strong a:link,.person_atten .num strong a:visited{}
+.person_atten .num strong a:hover{}
+.person_atten_l{border-right:1px solid #AFC8D9;}/*分割线颜色*/
+/*右侧 更多链接颜色*/
+.moreLink01,.f_pro .more,.f_pro .more a:link,.f_pro .more a:visited,
+a.funLink:link,a.funLink:visited{color:#449DC4;}
+.funLink{}
+.funLink a{}
+/*右侧 标题颜色*/
+.index_title01,
+.index_title01 a:link,
+.index_title01 a:visited,
+.index_title01 a:hover,
+.index_title01 a:active,
+.f_pro .title,
+.f_pro .title a:link,.f_pro .title a:visited{color:#006699;}
+/*尾部颜色*/
+.foot a,.foot,.foot a:visited{color:#0082CB;}
+
+/*托盘颜色与背景图片*/
+.toptrayMain{ color:#0082CB;}
+.toptrayMain .hotHeadList a:link,
+.toptrayMain .hotHeadList a:visited{}
+.toptrayMain .hotHeadList a:hover{}
+.toptrayMain .unlogin li.txt a:link,
+.toptrayMain .unlogin li.txt a:visited{}
+.toptrayMain .unlogin li.txt a:hover{}
+/*搜索按钮上的链接颜色和背景*/
+.toptrayMain .search .searchBtn a:link,
+.toptrayMain .search .searchBtn a:visited{color:#0082CB;background:url(images/skinbtn.gif) no-repeat left -209px;}
+.toptrayMain .search .searchBtn a:hover{color:#fff;background:url(images/skinbtn.gif) no-repeat left -176px;}
+.toptrayMain .unlogin a.loginBtn:hover{background:url(images/skinbtn.gif) no-repeat left -176px;}
+.BanCont li.login .loginBtn a:link, .BanCont li.login .loginBtn a:visited{color:#fff;background:url(images/skinbtn.gif) no-repeat left -176px;}
+.toptrayMain ul li.banLine{background:url(images/icon.gif) -20px top no-repeat;}
+
+/*二级页标题*/
+.mblogTitle,.setupTittle{background:#E3FFD5;border-bottom:1px solid #CFF3BB; color:#333;}
+a.titleLink:link,a.titleLink:visited,a.titleLink:hover{ color:#999;}
+
+
+/*框架样式*/
+.mainL{background:#fff;}
+/*发布器背景*/
+.fbq{width:600px; height:200px;background:url(images/fbqBg.jpg);}
+.fbq .box_3 .span_1{ background:url(images/icon.gif) no-repeat -30px -31px;}
+.fbq .box_3 .span_2{ background:url(images/icon.gif) no-repeat -29px -75px;}
+.fbq .box_3 a.btn{background:url(images/skinbtn.gif) left -77px no-repeat;}
+.fbq .box_3 a.btn:hover{background:url(images/skinbtn.gif) no-repeat left -107px;}
+.fbq .box_3 a.btn2{background:url(images/skinbtn.gif) no-repeat left -137px;}
+.fbq .box_3 a.close{ background-image:url(images/icon.gif); margin-left:2px;}
+.fbq .box_3 a{ color:#fff;}
+.fbq .fbqCount{color:#fff;}
+/*话题划过颜色和icon*/
+.topicslist .topicsContent li.topic_hover{ background-color:#EAF9FB;}
+.topicslist .topicsContent li{background-image:url(images/icon.gif);background-position:-30px -258px;}
+.topicslist .topicsContent li .del{background:url(images/icon.gif) no-repeat -30px -236px;}
+/*右侧导航样式*/

@@ -162,10 +162,15 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
         Zizaco\Entrust\EntrustServiceProvider::class,
         Zhangmazi\Ueditor\UeditorServiceProivder::class,
 
 
+=======
+        Overtrue\LaravelFollow\FollowServiceProvider::class,
+        Jcc\LaravelVote\VoteServiceProvider::class,
+>>>>>>> 7d4554fb642b0525ecda6383d1983e3b1f21bc31
 
         /*
          * Package Service Providers...
@@ -229,7 +234,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
         'Entrust' => Zizaco\Entrust\EntrustFacade::class,
+=======
+>>>>>>> 7d4554fb642b0525ecda6383d1983e3b1f21bc31
 
     ],
 

@@ -52,9 +52,12 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+<<<<<<< HEAD
 
         'role' => \Zizaco\Entrust\Middleware\EntrustRole::class,
         'permission' => \Zizaco\Entrust\Middleware\EntrustPermission::class,
         'ability' => \Zizaco\Entrust\Middleware\EntrustAbility::class,
+=======
+>>>>>>> 7d4554fb642b0525ecda6383d1983e3b1f21bc31
     ];
 }
