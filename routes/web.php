@@ -14,7 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
 
 Route::group(['prefix'=>'admin'], function () {
     //登录
@@ -126,7 +125,6 @@ Route::group(['prefix'=>'admin'], function () {
 });
 
 
-=======
 /*Route::get('/','home\IndexController@Index');
 Route::get('/register','home\UserController@register');
 Route::get('/login','home\UserController@login');*/
@@ -189,4 +187,4 @@ Route::get('home/vip_fans','Home\UserController@vip_fans'); //用户粉丝页
 
 //前台用户收藏
 Route::get('home/collection/{id}','Home\UserController@collection'); //用户收藏
->>>>>>> 7d4554fb642b0525ecda6383d1983e3b1f21bc31
+
